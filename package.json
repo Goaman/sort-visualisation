@@ -1,7 +1,7 @@
 {
-  "name": "p5-skeleton",
+  "name": "sort-visualisation",
   "version": "0.0.1",
-  "description": "Basic p5 skeleton",
+  "description": "Sort visualisation",
   "main": "index.js",
   "author": "Nicolas Bayet",
   "license": "MIT",
@@ -13,11 +13,13 @@
     "lint:fix": "eslint './src/**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "@types/dat.gui": "^0.7.6",
     "@types/p5": "^0.9.1",
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
     "@webpack-cli/serve": "^1.2.0",
     "css-loader": "^5.0.1",
+    "dat.gui": "^0.7.7",
     "eslint": "^7.16.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.0",
